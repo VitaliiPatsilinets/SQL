@@ -3,6 +3,7 @@ Learning SQL
 В рамках домашнего задания, мною были созданы следующие запросы к MySQL:
 
 Выведите информацию обо всех продуктах 	SELECT * FROM products;
+
 Выведите информацию обо всех продуктах, произведенных Apple в категории Phones	SELECT * FROM products WHERE manufacturer = 'Apple' AND category = 'Phones';
 Выведите названия продуктов и их стоимость, при условии что в названии содержатся буквы sa в любом месте	SELECT name, price FROM products WHERE name LIKE '%sa%';
 Выведите названия продуктов и их стоимость, при условии того, что цена находится в диапазоне от 100 до 1000 долларов	SELECT name, price FROM products WHERE price BETWEEN 100 AND 1000;
